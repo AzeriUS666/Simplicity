@@ -1,0 +1,73 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#esas-basliq {
+  width: 100%;
+  height: 610px;
+}
+
+#esas-basliq .esas-div {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#esas-basliq .esas-div .sol-hisse {
+  width: 50%;
+  height: 100%;
+  background-color: #D3CCC0;
+}
+
+#esas-basliq .esas-div .sol-hisse .sol-text {
+  margin-top: 240px;
+  margin-left: 140px;
+  font-size: 50px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#esas-basliq .esas-div .sag-hisse {
+  width: 50%;
+  height: 101%;
+  background-image: url(..//img/fon1.jpg);
+  background-position: center;
+  background-size: 209%;
+  background-repeat: no-repeat;
+  margin-top: -0.5%;
+  background-color: #a2a2a2;
+  background-blend-mode: multiply;
+}
+
+#esas-basliq .esas-div .sag-hisse .sag-text {
+  margin-top: 47px;
+  margin-left: 49px;
+  font-size: 21px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#esas-basliq .esas-div .sag-hisse .sag-text2 {
+  font-size: 18px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  margin-left: 600px;
+  margin-top: 380px;
+}
+/*# sourceMappingURL=style.css.map */

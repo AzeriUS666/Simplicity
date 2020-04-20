@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+    #esas-basliq {
+
+        width: 100%;
+        height: 610px;
+
+        .esas-div {
+
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+
+            .sol-hisse {
+
+                width: 50%;
+                height: 100%;
+                background-color: #D3CCC0;
+
+                .sol-text {
+                    margin-top: 240px;
+                    margin-left: 140px;
+                    font-size: 50px;
+                    color: white;
+                    font-family: 'Montserrat', sans-serif;
+                }
+            }
+
+            .sag-hisse {
+                width: 50%;
+                height: 101%;
+                background-image: url(..//img/fon1.jpg);
+                background-position: center;
+                background-size: 209%;
+                background-repeat: no-repeat;
+                margin-top: -0.5%;
+                background-color: #a2a2a2;
+                background-blend-mode: multiply;
+
+                .sag-text {
+
+                    margin-top: 47px;
+                    margin-left: 49px;
+                    font-size: 21px;
+                    color: white;
+                    font-family: 'Montserrat', sans-serif;
+
+                }
+                .sag-text2 {
+
+                    font-size: 18px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    transform: rotate(90deg);
+    transform-origin: top left;
+    margin-left: 600px;
+    margin-top: 380px;
+
+                }
+
+            }
+        }
+    }
